@@ -14,6 +14,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
 
     const params = new URLSearchParams(searchParams);
 
+    //FOR PAGINATION
     params.set('page', '1');
 
     if (term) {
